@@ -13,9 +13,13 @@ The Steps:
 
 ### Step 1 - Create an item with the image, get its square_thumbnail URL
 
-In the Special Collections back end, create an item. The item just needs a title, and add the exhibit image. Add it to the "Guide Images" collection, and make sure it's private. Once saved, click the item link to view its details, and click the image link under "File Metadata".
+In the Special Collections back end, create an item. The item just needs a title, and add the exhibit image. Add it to the "Guide Images" collection, and make sure it's private. 
 
 ![guide_image.png](guide_image.png)
+
+### Step 2 - Get the image URL
+
+Once saved, click the item link to view its details, and click the image link under "File Metadata".
 
 Under direct links, click "Square Thumbnail".
 ![Direct Links](directLinks.png)
@@ -28,3 +32,16 @@ We want to get rid of all the URL parameters, so in a text file (or however you 
 
 https://s3.us-west-2.amazonaws.com/special-collections-digital-collections/square_thumbnails/c409487277a03cc135ae8e932473cfb7.jpg
 
+
+### Step 3 - Copy all the HTML from the current-exhibits
+
+In the back end, click "Simple Pages" from the admin menu, find Current Exhibits, and click Edit. In the resulting page, click the source code link, and copy all the HTML.
+
+![Current Exhibits](current-exhibits.png)
+
+Since the HTML has no heierarchical indentation, visit an online "pretty printer" (<a href='https://jsonformatter.org/html-pretty-print' target='_blank'>example</a>), paste the code in the left window, and click "Make Pretty". Copy the Pretty HTML, open a code editor (like VS Code), and paste the code in a new file.
+
+
+### Step 4 - Create a sample entry for the new exhibit
+
+Take a look at the HTML structure of the <a href='current-exhibits.html'>current exhibits template</a>.
