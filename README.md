@@ -44,4 +44,10 @@ Since the HTML has no heierarchical indentation, visit an online "pretty printer
 
 ### Step 4 - Create a sample entry for the new exhibit
 
-Take a look at the HTML structure of the [current exhibits template](current-exhibit.html).
+Take a look at the HTML structure of the [current exhibits template](current-exhibit.html). All entries must be contained within:
+```
+<div class="container w-md-75" style="padding-top: 20px;">
+
+...
+</div>
+```
