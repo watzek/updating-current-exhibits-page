@@ -44,4 +44,4 @@ Since the HTML has no heierarchical indentation, visit an online "pretty printer
 
 ### Step 4 - Create a sample entry for the new exhibit
 
-Take a look at the HTML structure of the <a href='current-exhibits.html'>current exhibits template</a>.
+Take a look at the HTML structure of the [current exhibits template](current-exhibit.html).
