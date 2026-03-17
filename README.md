@@ -15,10 +15,10 @@ The Steps:
 
 In the Special Collections back end, create an item. The item just needs a title, and add the exhibit image. Add it to the "Guide Images" collection, and make sure it's private. Once saved, click the item link to view its details, and click the image link under "File Metadata".
 
-!(guide_image.png)[Guide Image]
+![guide_image.png](guide_image.png)
 
 Under direct links, click "Square Thumbnail".
-!(directLinks.png)[Direct Links]
+![Direct Links](directLinks.png)
 
 In the resulting page displaying the thumbnail, copy the link from the URL bar. It should looks something like this:
 
